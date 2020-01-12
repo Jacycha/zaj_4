@@ -14,3 +14,10 @@ class B extends A
         $this->writeA();
     }
 }
+class C extends B
+{
+    protected function writeC()
+    {
+        $this->writeB();
+    }
+}
