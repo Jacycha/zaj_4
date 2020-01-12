@@ -7,3 +7,10 @@ class A
     {
     }
 }
+class B extends A
+{
+    protected function writeB()
+    {
+        $this->writeA();
+    }
+}
